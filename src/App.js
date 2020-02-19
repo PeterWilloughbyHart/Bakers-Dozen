@@ -2,6 +2,7 @@ import React from 'react';
 import Navigation from './components/Navigation/Navigation';
 import Login from './components/Login/Login';
 import Footer from './components/Footer/Footer';
+import Feed from './components/Feed/Feed';
 
 
 function App() {
@@ -9,6 +10,7 @@ function App() {
     <div className="App">
         <Navigation/>
         <Login/>
+        <Feed/>
         <Footer/>
     </div>
   );
