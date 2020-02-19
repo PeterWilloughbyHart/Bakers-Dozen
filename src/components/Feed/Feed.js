@@ -10,10 +10,10 @@ var arr = [
 
 const Feed = () => {
     return(
-        <section>
+        <section id="feed">
             {arr.map((e, i) => {
                 return (
-                <div className="post-card" key={i}>
+                <div className="post" key={i}>
                     <h1>{e.name}</h1>
                     <p>{e.post}</p>
                     <img alt="like icon" src={e.img}/>

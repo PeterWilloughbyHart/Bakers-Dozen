@@ -1,9 +1,10 @@
 import React from 'react';
+import './Footer.scss'
 
 const Footer = () => {
     return(
-        <footer>
-            <h4>CopyRight</h4>
+        <footer id="footer">
+            <h4>CopyRight 2020</h4>
             <ul>
                 <li>Feed</li>
                 <li>Profile</li>
